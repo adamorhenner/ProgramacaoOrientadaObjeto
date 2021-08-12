@@ -81,6 +81,9 @@ public class ContaBanco {
 			} else {
 				System.out.println("Digite um tipo de conta CC ou CP");
 			}
+			
+			//dividir aqui em dois metodos
+			
 		} if(this.getStatus() == true) { 
 			if(this.getSaldo() > valorMensal) {
 				this.setSaldo(this.getSaldo() - valorMensal);
